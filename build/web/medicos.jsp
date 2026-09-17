@@ -35,7 +35,7 @@
                 
                 <table id="medicos">
                     <thead>
-                        <tr><th>idMedico</th><th>Nombre</th><th>Apellido</th><th>Cédula</th></tr>
+                        <tr><th>Nombre</th><th>Apellido</th><th>Cédula</th></tr>
                     </thead>
                     <tbody>
                         <%
@@ -43,7 +43,7 @@
                             while (rs.next()) {
                         %>
                         <tr>
-                            <td><%=rs.getString(2)%></td><td><%=rs.getString(3)%></td><td><%=rs.getString(4)%></td><td><%=rs.getString(5)%></td>
+                            <td><%=rs.getString(3)%></td><td><%=rs.getString(4)%></td><td><%=rs.getString(5)%></td>
                         </tr>
                         <%
                             } rs.close();

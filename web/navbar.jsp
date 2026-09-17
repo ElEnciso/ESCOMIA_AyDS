@@ -15,9 +15,9 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .navbar-brand { 
-        color: #ffffff; 
-        font-size: 26px; 
+    .navbar-brand {
+        color: #ffffff;
+        font-size: 26px;
         font-weight: bold; 
         text-decoration: none; 
         letter-spacing: 1px;
