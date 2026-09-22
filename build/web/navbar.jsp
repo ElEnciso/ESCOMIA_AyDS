@@ -61,6 +61,6 @@
         <li><a href="#especialidades">Especialidades</a></li>
         <li><a href="medicos.jsp">Médicos</a></li>
         <li><a href="Form.html">Agendar Cita</a></li>
-        <li><a href="Iniciar.html">Inciar Sesiï¿½n</a></li>
+        <li><a href="Iniciar.html">Inciar Sesión</a></li>
     </ul>
 </nav>
