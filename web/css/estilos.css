@@ -231,6 +231,8 @@ tr:hover {
 
 /* Títulos de sección internos */
 .section-heading {
+    position: sticky;
+    top: 0;
     color: var(--primary-color);
     font-size: 1.8rem;
     margin-top: 40px;
