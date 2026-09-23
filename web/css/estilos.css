@@ -177,7 +177,7 @@ tr:hover {
 /* Contenedor principal del carrusel */
 .carrusel-hospital {
     position: relative;
-    display: block; /* <-- CAMBIO CLAVE: Antes era flex y eso bloqueaba el ancho */
+    display: block; 
     background-color: var(--bg-light);
     overflow: hidden; 
     height: 100%;
@@ -198,7 +198,7 @@ tr:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    flex-shrink: 0; /* <-- CAMBIO CLAVE: Prohíbe que Flexbox aplaste las imágenes */
+    flex-shrink: 0; 
 }
 
 /* Botones de control (Flechas) */
@@ -212,7 +212,7 @@ tr:hover {
     font-size: 20px;
     padding: 10px 15px;
     cursor: pointer;
-    z-index: 1000; /* Aseguramos que siempre estén al frente */
+    z-index: 1000; 
     border-radius: 50%;
     transition: background 0.3s;
 }
@@ -230,14 +230,24 @@ tr:hover {
 }
 
 /* Títulos de sección internos */
-.section-heading {
+header {
     position: sticky;
     top: 0;
+    z-index: 1000;
+    width: 100%; 
+}
+
+.section-heading {
+    position: sticky;
+    top: 100px; 
     color: var(--primary-color);
     font-size: 1.8rem;
     margin-top: 40px;
     margin-bottom: 20px;
     text-align: center;
+    z-index: 900; 
+    background-color: var(--bg-light); 
+    padding: 10px 0; 
 }
 
 /* Cuadrícula de Servicios */

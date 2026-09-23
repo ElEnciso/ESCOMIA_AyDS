@@ -8,8 +8,6 @@
         padding: 0 40px;
         height: 70px;
         box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-        position: sticky;
-        top: 0;
         z-index: 1000;
         margin-bottom: 30px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
