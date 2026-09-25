@@ -65,13 +65,15 @@
             </div>
             
             <div class="descripcion card-panel">
-                <h3>Sobre Nosotros</h3>
+                <h2>Sobre Nosotros</h2>
+                <h3>Visión</h3>
                 <p>
                     En el <strong>Hospital Sepa-la-bola</strong>, nos comprometemos a brindar atención médica de la más alta calidad. 
                     Aunque nuestro nombre diga lo contrario, contamos con tecnología de punta, quirófanos completamente equipados y un 
-                    cuerpo médico altamente capacitado. Somos la mera punta del tren, el mero borrego de la barbacoa. Nuestra misión es salvaguardar tu salud con un trato humano, cálido y profesional. 
                     Estamos abiertos las 24 horas del día, los 365 días del año.
                 </p>
+                <h3>Mision</h3>
+                <p>Nuestra misión es salvaguardar tu salud con un trato humano, cálido y profesional. </p>
             </div>
             
             <h3 class="section-heading">Nuestros Servicios Principales</h3>
@@ -115,7 +117,7 @@
             </section>
         </main>
         <footer class="site-footer">
-            <p>&copy; 2026 ElEnciso WEB</p>
+            <p>&copy; 2026 ElMeroFiloDelBisturi</p>
         </footer>
         <script>
             document.addEventListener("DOMContentLoaded", function() {

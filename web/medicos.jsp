@@ -61,4 +61,7 @@
             </div>
         </main>
     </body>
+    <footer class="site-footer">
+        <p>&copy 2026 ElMeroFiloDelBisturi</p>
+    </footer>
 </html>
