@@ -1,2 +1,5 @@
 # ESCOMIA_AyDS
-Repositorio para el proyecto de Análisis y Diseño de Sistemas <br> ahora sin gitignor
+Repositorio para el proyecto de Análisis y Diseño de Sistemas 
+<br> 
+ahora sin .DS_Store
+
